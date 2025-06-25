@@ -1,6 +1,4 @@
-# Image-Caption-Generator-using-CNN-LSTM
-This project generates natural language descriptions (captions) for input images using a combination of a Convolutional Neural Network (CNN) for image feature extraction and a Long Short-Term Memory (LSTM) network for sequence generation.
+# Reddit-Semantic-Crawler-using-BERT-FAISS
+This project crawls Reddit posts from a selected subreddit and performs semantic similarity analysis using a combination of Sentence-BERT for text embedding and FAISS for fast similarity search.
 
-We use the Xception model for feature extraction and train an LSTM-based decoder to learn contextual language patterns to describe the image meaningfully.
-
-
+We use the PRAW API to fetch Reddit posts, encode them using the Sentence-BERT model, and build a FAISS index to find and compare semantically similar posts efficiently. This helps in uncovering related discussions, coordinated content, or topic clustering within Reddit.
